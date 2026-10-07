@@ -2705,5 +2705,3 @@ PRODUCT_PACKAGES += \
     vendor_lib64_rodinsc820csultra_mipi_raw_IdxMgr_so \
     vendor_lib64_rodinsc820csultra_mipi_raw_tuning_so
 
-PRODUCT_BOOT_JARS += \
-    camerax-vendor-extensions
