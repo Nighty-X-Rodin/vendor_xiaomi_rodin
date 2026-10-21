@@ -790,7 +790,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rodin/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml \
     vendor/xiaomi/rodin/proprietary/vendor/etc/mis_powerop_configs.bin:$(TARGET_COPY_OUT_VENDOR)/etc/mis_powerop_configs.bin \
     vendor/xiaomi/rodin/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
-    vendor/xiaomi/rodin/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/xiaomi/rodin/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
     vendor/xiaomi/rodin/proprietary/vendor/etc/nn/cam_aimemc/camera_memc_30to60.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/cam_aimemc/camera_memc_30to60.dla \
     vendor/xiaomi/rodin/proprietary/vendor/etc/nn/cam_aimemc/camera_memc_resizer_1080p_afbc_nv12.dla:$(TARGET_COPY_OUT_VENDOR)/etc/nn/cam_aimemc/camera_memc_resizer_1080p_afbc_nv12.dla \
@@ -1243,8 +1242,6 @@ PRODUCT_PACKAGES += \
     libimagebuffer_wrapper \
     libimgstream_sync \
     libimgsys_osal \
-    libion_mtk \
-    libion_ulit \
     libipsec_ims_shr \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
