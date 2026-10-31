@@ -1826,9 +1826,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.apuware.apusys-V5-ndk_vendor \
     vendor.mediatek.hardware.apuware.utils-V1-ndk_vendor \
     vendor.mediatek.hardware.apuware.utils@2.0_vendor \
-    vendor.mediatek.hardware.bluetooth.audio-V1-ndk \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.camera.aovservice-V2-ndk \
     vendor.mediatek.hardware.camera.atms-V1-ndk \
     vendor.mediatek.hardware.camera.atms@1.0 \
@@ -1848,7 +1845,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.gnss.batching-V1-ndk \
     vendor.mediatek.hardware.gpuserv-V2-ndk \
     vendor.mediatek.hardware.lbs-V1-ndk \
-    vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.mbrain-V6-ndk \
     vendor.mediatek.hardware.mmagent-V1-ndk \
     vendor.mediatek.hardware.mmagent@1.0 \
@@ -1874,7 +1870,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex.smartratswitch-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.voice-V1-ndk \
     vendor.mediatek.hardware.netdagent-V1-ndk \
-    vendor.mediatek.hardware.netdagent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent-V1-ndk_vendor \
     vendor.mediatek.hardware.neuropilot.agent@1.0 \
     vendor.mediatek.hardware.neuropilot.agent@1.1 \
