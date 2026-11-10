@@ -31814,7 +31814,6 @@ cc_prebuilt_library_shared {
                 "libyuv",
                 "libpng",
                 "libz",
-                "libpiex",
                 "libexpat",
                 "libEGL",
                 "libGLESv2",
