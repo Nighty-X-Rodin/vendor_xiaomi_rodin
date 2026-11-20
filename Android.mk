@@ -6,6 +6,12 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),rodin)
 
+ifndef add-radio-file-sha1-checked
+define add-radio-file-sha1-checked
+  $(eval $(call add-radio-file-internal,$(1),$(notdir $(1))))
+endef
+endif
+
 $(call add-radio-file-sha1-checked,radio/apusys.img,955bf46af95e112f60b7965622f0756663e1136a)
 $(call add-radio-file-sha1-checked,radio/audio_dsp.img,b830eb7535ef0c784585a2c7a34a3df374002a5c)
 $(call add-radio-file-sha1-checked,radio/ccu.img,2eb0eac6e812014302cc1254fbed48c7bb9f0ff1)
